@@ -5,3 +5,6 @@ mod 'apache',
 mod 'wordpress',
   :git => 'https://github.com/WordPress/wordpress-develop.git',
   :tag => '4.9'
+mod 'stdlib',
+  :git => 'https://github.com/puppetlabs/puppetlabs-stdlib.git',
+  
