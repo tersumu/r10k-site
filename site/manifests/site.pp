@@ -4,7 +4,7 @@ node 'linuxagent.example.com' {
   include apache
 }
 
-node 'wordpress.example.com' {
+node 'wordpressagent.example.com' {
   include wordpress
   include apache
 }
