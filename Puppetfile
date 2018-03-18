@@ -7,4 +7,5 @@ mod 'wordpress',
   :tag => '4.9'
 mod 'stdlib',
   :git => 'https://github.com/puppetlabs/puppetlabs-stdlib.git',
+  :tag => 'v2.2.1'
   
