@@ -5,7 +5,7 @@ node 'puppet.devaamc.org' {
 }
 
 node 'websrv1.devaamc.org' {
-  include role::apache
+  include role::webserver
   
 }
 node 'ip-172-31-58-158.ec2.internal' {
