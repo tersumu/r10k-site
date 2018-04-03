@@ -1,10 +1,10 @@
 #site.pp
 
-node 'linuxagent.example.com' {
-  include role::apache
+node 'puppet.devaamc.org' {
+  include role::puppetmaster
 }
 
-node 'wordpressagent.example.com' {
+node 'websrv1.devaamc.org' {
   include role::wordpress
   
 }
