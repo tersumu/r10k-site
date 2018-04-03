@@ -5,6 +5,6 @@ node 'puppet.devaamc.org' {
 }
 
 node 'websrv1.devaamc.org' {
-  include role::wordpress
+  include role::apache
   
 }
