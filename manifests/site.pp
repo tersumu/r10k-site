@@ -9,5 +9,5 @@ node 'websrv1.devaamc.org' {
   
 }
 node 'ip-172-31-58-158.ec2.internal' {
-   include role::wordpress
+   include role::apache
  }
